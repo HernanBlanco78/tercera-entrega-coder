@@ -55,7 +55,7 @@ ROOT_URLCONF = 'blog_cocina.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates/blogcocina'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

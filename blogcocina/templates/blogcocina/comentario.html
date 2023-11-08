@@ -1,0 +1,28 @@
+
+
+
+{% extends "base.html" %}
+
+<!doctype html>
+<html>
+  <head>
+    <title>Blog RECETAS</title>
+    <meta name="description" content="Our first page">
+    <meta name="keywords" content="html tutorial template">
+  </head>
+  <body>
+    <h1>
+
+    </h1>
+
+    <ul>
+    {% for comentario in Comentarios %}
+      <li>
+        {{ comentario.comentario}}
+   
+      </li>
+    {% endfor %}
+    </ul>
+
+  </body>
+</html>
